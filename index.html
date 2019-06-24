@@ -1,65 +1,73 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8" />
     <title>Jonathan Nuñez</title>
     <link rel="icon" type="image/png" href="../Recursos/images/favicon.png" />
+    <link rel="stylesheet" href="CSS/estilos.css">
 </head>
+
 <body>
-    <header>
+    <header class="header">
         <div>
-            <nav>
+            <figure class="logo">
                 <img src="../Recursos/images/logo.png" alt="logo de la pagina" />
+            </figure>
+            <nav class="menu">
                 <ol>
                     <li>
-                        <a href="#portafolio">Portafolio</a>
+                        <a class="link" href="#portafolio">Portafolio</a>
                     </li>
                     <li>
-                        <a href="#experiencia">Experiencia</a>
+                        <a class="link" href="#experiencia">Experiencia</a>
                     </li>
                     <li>
-                        <a href="#contacto">Trabajemos juntos</a>
+                        <a class="link" href="#contacto">Trabajemos juntos</a>
                     </li>
                 </ol>
             </nav>
         </div>
     </header>
-    <section>
+    <section class="hero">
         <h1>Hola! Soy <strong>Jonathan Nuñez</strong>
             <br /> Estudiante de <strong>Informática</strong>
             <br /> y <strong>Buscador de la Cámara</strong>
         </h1>
-        <img src="../Recursos/images/hero.jpg" alt="Imagen de Portada" width="500" />
+        <img class="hero-image" src="../Recursos/images/hero.jpg" alt="Imagen de Portada" width="500" />
     </section>
-    <section id="portafolio">
+    <section id="portafolio" class="portfolio">
         <h2>Portafolio (Proyectos Destacados)</h2>
-        <article>
-            <h3>Nombre del Proyecto</h3>
-            <h6>Texto complementario</h6>
-            <p><small><strong>Fecha:</strong> 21/06/2019</small></p>
-            <p><small><strong>Puedes verlo en:</strong> url del proyecto</small></p>
-            <p>Descripción del proyecto</p>
-            <img src="../Recursos/images/platzi-video-react-native.png" alt="Imagen del Proyecto de React Native" width="500" />
-        </article>
-    </section>
-    <section id="experiencia">
-        <h2>Más sobre mi experiencia</h2>
-        <article>
-            <figure>
-                <img src="../Recursos/images/platzi-conf.jpg" alt="Imagen del evento" width="500" />
+        <article class="project">
+            <h3 class="project-title">Nombre del Proyecto</h3>
+            <h6 class="project-course">Texto complementario</h6>
+            <p class="project-date"><small><strong>Fecha:</strong> 21/06/2019</small></p>
+            <p class="project-url"><small><strong>Puedes verlo en:</strong> url del proyecto</small></p>
+            <p class="project-description">Descripción del proyecto</p>
+            <figure class="project-imageContainer">
+                <img class="project-image" src="../Recursos/images/platzi-video-react-native.png" alt="Imagen del Proyecto de React Native" width="500" />
             </figure>
-            <h3>Título de la imagén</h3>
-            <p>Descripción del evento</p>
-            <a href="https://www.youtube.com/watch?v=CH9bDWIMUag" target="_blank"> Url del evento</a>
         </article>
     </section>
-    <section id="contacto">
-      <form action="/suscripcion/">
-        <h3>¿Creamos algo juntos?</h3>
-        <input type="text" placeholder="Déjame tu email" />
-        <button>Enviar</button>
-      </form>
+    <section id="experiencia" class="experience">
+        <h2>Más sobre mi experiencia</h2>
+        <article class="event">
+            <figure class="event-imageContainer">
+                <img class="event-image" src="../Recursos/images/platzi-conf.jpg" alt="Imagen del evento" width="500" />
+            </figure>
+            <h3 class="event-title">Título de la imagen/evento</h3>
+            <p class="event-description">Descripción del evento</p>
+            <a class="event-url" href="https://www.youtube.com/watch?v=CH9bDWIMUag" target="_blank"> Url del evento</a>
+        </article>
     </section>
-    <footer>Pie de Página</footer>
+    <section id="contacto" class="contact">
+        <form action="/suscripcion/" class="form-email">
+            <h3 class="form-title">¿Creamos algo juntos?</h3>
+            <input class="form-textInput" type="text" placeholder="Déjame tu email" />
+            <button class="form-sendingButton">Enviar</button>
+        </form>
+    </section>
+    <footer class="footer">Pie de Página</footer>
 </body>
+
 </html>

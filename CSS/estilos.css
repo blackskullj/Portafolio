@@ -1,0 +1,44 @@
+body{
+    background: #253F4E;
+}
+
+header{
+    background: #1D252C;
+}
+
+/*
+Reglas:
+    Selectores:
+        Declaraciones:
+            Propiedades:
+                Valores
+*/
+
+/*
+Selectores de etiqueta:
+body, header, article, div, etcétera
+body{
+
+}
+*/
+
+/*
+Selectores descendentes:
+body header div nav ol li a{
+
+}
+*/
+
+/*
+Selector de Clase .
+.link{
+
+}
+*/
+
+/*
+Selector de ID #
+#portafolio{
+
+}
+*/
