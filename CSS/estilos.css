@@ -1,6 +1,6 @@
 body{
     font-family: 'Source Sans Pro', sans-serif;
-    background: #253F4E;
+    margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -13,11 +13,31 @@ h1{
     line-height: 1.5em;
     letter-spacing: -.2px;
     text-transform: capitalize;
-    /* text-decoration: underline; */
+    color: white;
+    margin: 0;
+    padding: 10px;
+}
+
+h1 strong{
+    color: #026fff;
 }
 
 .hero{
-    width: 400px;
+    height: 300px;
+    background-image: url('../../Recursos/images/hero.jpg');
+    background-color: #1b2127;
+    background-size: 500px 300px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+.project{
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    background: whitesmoke;
 }
 
 .project-details{
@@ -28,8 +48,18 @@ h1{
     width: 500px;
 }
 
-header{
-    background: #1D252C;
+.header{
+    background: #1b2127;
+    color: white;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+}
+
+.portfolio{
+    background: #fafafa;
 }
 
 /*
